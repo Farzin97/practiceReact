@@ -4,6 +4,7 @@ const Product = (props) => {
     <div>
       <p>product name : {props.name} course</p>
       <p> product price : {props.price} </p>
+      <p> product price : {props.price} </p>
       {props.children}
     </div>
   );
